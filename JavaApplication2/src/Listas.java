@@ -1,6 +1,3 @@
-
-import javax.swing.JOptionPane;
-
 /**
  *
  * @author ian
@@ -22,9 +19,7 @@ public class Listas {
             System.out.println("Conceito B");
         } else if (d >= 7){
             System.out.println("Conceito D");
-        } else if (d >= 6){
-            System.out.println("Conceito F");
-        } else if (d < 6){
+        } else {
             System.out.println("Conceito F");
         }
         
